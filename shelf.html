@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Njoh iPhone shelf</title>
+  <meta name="description" content="Browse Njoh iPhone example shelf and ask on WhatsApp.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,600,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/page.css?v=20261108n">
+</head>
+<body class="page-shelf">
+  <a class="visually-hidden" href="#range" data-i18n="skip">Skip to shelf</a>
+
+  <header class="site-nav">
+    <div class="container">
+      <a class="wordmark" href="./">
+        <img class="wordmark-mark" src="./img/avatar.svg" width="32" height="32" alt="">
+        <span>njoh iphone</span>
+      </a>
+      <nav aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="./shelf.html" data-i18n="navShelf">shelf</a></li>
+          <li><a href="./#order" data-i18n="navOrder">how to order</a></li>
+          <li><a href="./#delivery" data-i18n="navDelivery">delivery</a></li>
+        </ul>
+      </nav>
+      <div class="nav-end">
+        <div class="lang-switch" role="group" data-i18n-aria="langLabel" aria-label="Language">
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" class="lang-btn" data-lang="fr" aria-pressed="false">FR</button>
+        </div>
+        <a class="btn btn--accent btn--pill" href="https://wa.me/237600000000" data-wa-intent="nav" data-i18n="navWa">WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section--shelf" id="range" aria-labelledby="range-title">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h1 id="range-title" class="shelf-title" data-i18n="rangeTitle">on the shelf</h1>
+            <p class="section-note" data-i18n="rangeNote">example asks · tap to message us</p>
+          </div>
+          <p class="section-note" id="shelf-count"></p>
+        </div>
+        <div id="shelf-filters"></div>
+        <ul class="shelf" id="shelf-list" tabindex="0" data-i18n-aria="railLabel" aria-label="Njoh iPhone shelf"></ul>
+      </div>
+    </section>
+  </main>
+
+  <div class="sticky-buy" role="region" data-i18n-aria="stickyLabel" aria-label="Order on WhatsApp">
+    <div class="container">
+      <div class="sticky-copy">
+        <strong data-i18n="stickyReady">ready to order</strong>
+        <span data-i18n="stickyHint">opens WhatsApp with a draft message</span>
+      </div>
+      <a class="btn btn--accent" href="https://wa.me/237600000000" data-wa-intent="sticky" data-i18n="stickyCta">Order on WhatsApp</a>
+    </div>
+  </div>
+
+  <script src="./js/wa.js?v=20261108n"></script>
+  <script src="./js/i18n.js?v=20261108n"></script>
+  <script src="./js/shelf.js?v=20261108n"></script>
+</body>
+</html>

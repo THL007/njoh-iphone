@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ecedee"/>
+      <stop offset="100%" stop-color="#d7d7d7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#g)"/>
+  <rect x="480" y="120" width="320" height="480" rx="36" fill="#111"/>
+  <rect x="500" y="160" width="280" height="380" rx="8" fill="#fff"/>
+  <rect x="520" y="190" width="240" height="160" fill="#e5e7ff"/>
+  <circle cx="640" cy="560" r="14" fill="#000aff"/>
+  <text x="640" y="290" text-anchor="middle" font-family="system-ui,sans-serif" font-size="42" font-weight="700" fill="#111" letter-spacing="-1">njoh</text>
+  <text x="640" y="340" text-anchor="middle" font-family="ui-monospace,monospace" font-size="22" fill="#737780">iPhone</text>
+</svg>
